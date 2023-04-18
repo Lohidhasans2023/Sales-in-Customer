@@ -1,0 +1,50 @@
+{
+  "name": "angular-bootstrap",
+  "version": "1.0.0",
+  "description": "Application example built with Angular 13 and adding the Bootstrap CSS framework using the bootstrap and @ng-bootstrap/ng-bootstrap libraries.",
+  "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@angular/animations": "^15.2.7",
+    "@angular/common": "^15.2.7",
+    "@angular/compiler": "^15.2.7",
+    "@angular/compiler-cli": "^15.2.7",
+    "@angular/core": "^15.2.7",
+    "@angular/forms": "^15.2.7",
+    "@angular/localize": "^15.0.0",
+    "@angular/platform-browser": "^15.2.7",
+    "@angular/platform-browser-dynamic": "^15.2.7",
+    "@angular/router": "^15.2.7",
+    "@ng-bootstrap/ng-bootstrap": "^14.1.0",
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.4",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.5.0",
+    "typescript": ">=4.8.2 <5.0",
+    "zone.js": "^0.13.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.3.7",
+    "@angular/cli": "~13.3.7",
+    "@angular/compiler-cli": "~13.3.10",
+    "@types/jasmine": "~4.0.3",
+    "@types/node": "^16.11.36",
+    "jasmine-core": "~4.1.1",
+    "karma": "~6.3.20",
+    "karma-chrome-launcher": "~3.1.1",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.0.1",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~4.6.4"
+  }
+}

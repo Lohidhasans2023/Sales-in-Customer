@@ -1,0 +1,33 @@
+<select class="form-control">
+  <option>Today</option>
+  <option>This Week</option>
+  <option>This Month</option>
+  <option>This Quarter</option>
+  <option>This Year</option>
+  <option>Yesterday</option>
+  <option>Previous Week</option>
+  <option>Previous Year</option>
+</select>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Invoice Count</th>
+      <th scope="col">Sales</th>
+      <th scope="col">Sales With Tax</th>
+      <th scope="col">Transation Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let customer of SalesCustomerData; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>{{ customer.name }}</td>
+      <td>{{ customer.invoiceCount }}</td>
+      <td>{{ customer.sales }}</td>
+      <td>{{ customer.salesWithTax }}</td>
+      <td>{{ customer.transationDate | date: 'dd-MM-yyyy' }}</td>
+    </tr>
+  </tbody>
+</table>
